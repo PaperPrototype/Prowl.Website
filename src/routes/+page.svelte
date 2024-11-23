@@ -68,10 +68,9 @@
         <a
           href="https://discord.com/invite/BqnJ9Rn4sn"
           target="_blank"
-          class="bg-slate-500 px-4 p-2 rounded-full flex gap-2"
+          class="p-2 rounded-full flex gap-2 scale-125 hover:opacity-80 transition-all"
         >
           <!-- <img src={githubIcon} alt="GitHub" class="w-6 h-6" /> -->
-          Discord
           <svg
             viewBox="0 -28.5 256 256"
             version="1.1"
@@ -89,7 +88,7 @@
         <a
           href="https://github.com/ProwlEngine/Prowl"
           target="_blank"
-          class="bg-slate-500 p-2 rounded-full"
+          class="p-2 rounded-full scale-125 hover:opacity-80 transition-all"
         >
           <!-- <img src={githubIcon} alt="GitHub" class="w-6 h-6" /> -->
           <img
