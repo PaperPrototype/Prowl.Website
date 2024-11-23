@@ -68,9 +68,10 @@
         <a
           href="https://discord.com/invite/BqnJ9Rn4sn"
           target="_blank"
-          class="bg-slate-500 p-2 rounded-full"
+          class="bg-slate-500 px-4 p-2 rounded-full flex gap-2"
         >
           <!-- <img src={githubIcon} alt="GitHub" class="w-6 h-6" /> -->
+          Discord
           <svg
             viewBox="0 -28.5 256 256"
             version="1.1"
