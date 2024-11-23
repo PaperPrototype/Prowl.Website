@@ -107,11 +107,11 @@
       <h2 class="text-4xl font-semibold pb-5">Large Scale Physics</h2>
       <div class="flex flex-col gap-3">
         <p class="text-white/70">
-          Simulate a small solar system with double precision JitterPhysics.
+          Simulate the solar system with double precision physics now supported
+          through JitterPhysics.
         </p>
         <span class="text-white/70 text-xs"
-          >Our solar system fits in prowl if you scale it down by a factor of
-          10.</span
+          >Our solar system fits in prowl 1:1 no need to scale it down.</span
         >
       </div>
     </div>
