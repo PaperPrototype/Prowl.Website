@@ -30,8 +30,7 @@
           >Features</a
         >
         <a
-          href="https://github.com/orgs/ProwlEngine/projects/1"
-          target="_blank"
+          href="/gallery"
           class="hover:text-gray-400"
           class:active-link={$page.url.pathname.startsWith("/gallery")}
           >gallery</a
