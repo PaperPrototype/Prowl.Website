@@ -18,7 +18,7 @@
     position: absolute;
   }
   .grid {
-    transform: translate(calc(50vw - 500px));
+    transform: translate(calc(50vw - 501px));
     width: 1000px;
     height: $grid-height;
     overflow: hidden;

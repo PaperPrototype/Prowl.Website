@@ -17,24 +17,24 @@
       </div>
 
       <!-- Desktop Links -->
-      <div class="hidden md:flex space-x-6 mx-auto pr-8">
+      <div class="hidden md:flex space-x-6 mx-auto pr-[0.15rem]">
         <a
           href="/"
           class="hover:text-gray-400"
-          class:active-link={$page.url.pathname === "/"}>Features</a
+          class:active-link={$page.url.pathname === "/"}>Home</a
         >
         <a
-          href="/community"
+          href="/features"
           class="hover:text-gray-400"
-          class:active-link={$page.url.pathname.startsWith("/community")}
-          >Community</a
+          class:active-link={$page.url.pathname.startsWith("/features")}
+          >Features</a
         >
         <a
           href="https://github.com/orgs/ProwlEngine/projects/1"
           target="_blank"
           class="hover:text-gray-400"
-          class:active-link={$page.url.pathname.startsWith("/roadmap")}
-          >roadmap</a
+          class:active-link={$page.url.pathname.startsWith("/gallery")}
+          >gallery</a
         >
       </div>
 
@@ -83,14 +83,9 @@
     <!-- Mobile Menu -->
     {#if isMobileMenuOpen}
       <div class="mobile-menu md:hidden px-4 pb-2">
-        <a href="/" class="block py-2 hover:text-gray-400">Features</a>
-        <a href="/community" class="block py-2 hover:text-gray-400">Community</a
-        >
-        <a
-          href="https://github.com/orgs/ProwlEngine/projects/1"
-          target="_blank"
-          class="block py-2 hover:text-gray-400">Roadmap</a
-        >
+        <a href="/" class="block py-2 hover:text-gray-400">Home</a>
+        <a href="/features" class="block py-2 hover:text-gray-400">Features</a>
+        <a href="/gallery" class="block py-2 hover:text-gray-400">Gallery</a>
       </div>
     {/if}
   </nav>
