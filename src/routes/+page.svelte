@@ -6,7 +6,18 @@
 
 <svelte:head>
   <title>Prowl Engine</title>
-  <meta name="description" content="Svelte demo app" />
+  <meta name="title" content="Prowl Game Engine" />
+  <meta name="description" content="An open-source Unity-like game engine" />
+  <meta name="image" content="/landing.png" />
+
+  <meta property="og:title" content="Prowl Game Engine" />
+  <meta
+    property="og:description"
+    content="An open-source Unity-like game engine"
+  />
+  <meta property="og:image" content="/landing.png" />
+  <meta property="og:url" content="https://prowlengine.com" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <div class="h-screen w-screen">
