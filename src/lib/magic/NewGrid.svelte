@@ -11,13 +11,15 @@
   $body-bg: #000000;
   $grid-color: rgba(#ffffff, 0.3);
   $grid-height: 100vh;
+  $grid-width: 100vw;
 
   .container {
     background-color: $body-bg;
     position: absolute;
   }
   .grid {
-    width: 100vw;
+    transform: translate(calc(50vw - 500px));
+    width: 1000px;
     height: $grid-height;
     overflow: hidden;
     perspective: ($grid-height * 0.75);
