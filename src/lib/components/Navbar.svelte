@@ -30,7 +30,8 @@
           >Community</a
         >
         <a
-          href="/roadmap"
+          href="https://github.com/orgs/ProwlEngine/projects/1"
+          target="_blank"
           class="hover:text-gray-400"
           class:active-link={$page.url.pathname.startsWith("/roadmap")}
           >roadmap</a
@@ -112,7 +113,11 @@
         <a href="/" class="block py-2 hover:text-gray-400">Features</a>
         <a href="/community" class="block py-2 hover:text-gray-400">Community</a
         >
-        <a href="/roadmap" class="block py-2 hover:text-gray-400">Roadmap</a>
+        <a
+          href="https://github.com/orgs/ProwlEngine/projects/1"
+          target="_blank"
+          class="block py-2 hover:text-gray-400">Roadmap</a
+        >
       </div>
     {/if}
   </nav>
