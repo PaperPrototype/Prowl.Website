@@ -8,7 +8,7 @@
   <!-- <NewGrid></NewGrid> -->
 </div>
 
-<div class="mx-auto max-w-3xl flex flex-col readable">
+<div class="mx-auto max-w-3xl flex flex-col readable p-10">
   <p>
     <span>DISCLAIMER:</span>
     It is important to note out that while prowl shows promise the engine is relatively

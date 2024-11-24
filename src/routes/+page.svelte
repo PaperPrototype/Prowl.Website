@@ -29,12 +29,12 @@
         Prowl Engine
       </div> -->
       <div
-        class="mx-auto w-fit px-1 pointer-events-none pb-5 z-20 whitespace-pre-wrap text-center text-7xl font-bold leading-none"
+        class="mx-auto w-fit px-1 pointer-events-none pb-5 z-20 whitespace-pre-wrap text-center md:text-7xl text-4xl font-bold leading-none"
       >
         Prowl Engine
       </div>
       <p
-        class="text-white/90 max-w-xl text-center px-5 pb-5 text-xl font-medium z-20"
+        class="text-white/90 max-w-xl text-center px-5 pb-5 md:text-xl text-md font-medium z-20"
       >
         Open-source Unity-like game engine in active development
       </p>
