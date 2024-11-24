@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Prowl | Gallery</title>
+  <title>Prowl | Contributing</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
