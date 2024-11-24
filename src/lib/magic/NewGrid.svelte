@@ -1,6 +1,6 @@
 <!-- https://codepen.io/kirkland/pen/ZaWJMb -->
 
-<div class="container">
+<div class="grid-container">
   <div class="grid">
     <div class="grid-fade"></div>
     <div class="grid-lines"></div>
@@ -10,20 +10,22 @@
 <style lang="scss" scoped>
   $body-bg: #000000;
   $grid-color: rgba(#ffffff, 0.3);
-  $grid-height: 100vh;
+  $grid-height: 60vh;
   $grid-width: 100vw;
 
-  .container {
+  .grid-container {
     background-color: $body-bg;
     position: absolute;
   }
+
   .grid {
-    transform: translate(calc(50vw - 501px));
-    width: 1000px;
+    // transform: translate(calc(50vw - 500px));
+    width: $grid-width;
     height: $grid-height;
     overflow: hidden;
     perspective: ($grid-height * 0.75);
   }
+
   .grid-fade {
     width: 100%;
     height: 100%;
