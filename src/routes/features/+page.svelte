@@ -84,8 +84,7 @@
       </div>
     </div>
     <video class="w-full p-5" loop muted autoplay>
-      <source src="physics.mp4" type="video/mp4" />
-      <source src="physics.mov" type="video/quicktime" />
+      <source src="jitter.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 

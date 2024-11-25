@@ -39,8 +39,8 @@
       rel="noopener noreferrer"
     >
       C# Dev Kit extension
-    </a>. Visual Studio 2022 is also a great option but more on that later. You
-    can download both of these
+    </a>. Visual Studio 2022 is also a great option but can sometimes be hard to
+    grasp. You can download both of these
     <a href="https://visualstudio.microsoft.com/downloads/">here</a> if you don't
     already have them.
   </p>
