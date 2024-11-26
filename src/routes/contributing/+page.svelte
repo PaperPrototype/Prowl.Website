@@ -62,11 +62,14 @@
     the console window in the Prowl Editor.
   </p>
   <p>
-    <span>DISCLAIMER FOR OSX: </span> For some reason veldrid.sdl2 fails to
-    provide a proper <code>libsdl2.dylib</code>. Our mac developer has an M2
-    MacBook and for convienience you can download a proper
-    <code>libsdl2.dylib</code>
-    <a href="/libsdl2.dylib" download="/libsdl2.dylib">here</a>
+    <span>DISCLAIMER FOR OSX: </span> For some reason veldrid.sdl2 and AssimpNet
+    fail to provide a proper libsdl2.dylib and libassimp.dylib for apple
+    silicon. For convienience you can download proper dylibs for apple silicon
+    <a href="/libsdl2.dylib" download="/libsdl2.dylib">here (libsdl2.dylib)</a>
+    and
+    <a href="/libassimp.dylib" download="/libassimp.dylib"
+      >here (libassimp.dylib)</a
+    >.
   </p>
 </div>
 

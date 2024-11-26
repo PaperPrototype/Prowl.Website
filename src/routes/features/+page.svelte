@@ -79,7 +79,8 @@
           through JitterPhysics.
         </p>
         <span class="text-white/70 text-xs">
-          Fits in prowl 1:1 no need to scale it down.
+          Yes technically our solar system fits in 1:1 without needing to scale
+          it down. Now you can finally make those Planets you've always wanted!
         </span>
       </div>
     </div>
