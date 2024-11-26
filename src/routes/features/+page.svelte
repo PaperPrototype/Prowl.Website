@@ -4,7 +4,13 @@
 
 <svelte:head>
   <title>Prowl | Features</title>
-  <meta name="description" content="Svelte demo app" />
+  <meta name="title" content="Prowl Engine | Features" />
+  <meta name="description" content="An open-source Unity-like game engine" />
+  <meta property="og:title" content="Prowl Engine | Features" />
+  <meta
+    property="og:description"
+    content="An open-source Unity-like game engine"
+  />
 </svelte:head>
 
 <div

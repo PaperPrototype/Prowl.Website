@@ -8,6 +8,12 @@
 <svelte:head>
   <title>Prowl Game Engine</title>
   <meta name="title" content="Prowl Game Engine" />
+  <meta name="description" content="An open-source Unity-like game engine" />
+  <meta property="og:title" content="Prowl Game Engine" />
+  <meta
+    property="og:description"
+    content="An open-source Unity-like game engine"
+  />
 </svelte:head>
 
 <div
@@ -129,6 +135,15 @@
 >
   <img src="" alt="" />
 
+  <h2 class="text-3xl font-medium text-center">About Prowl</h2>
+  <p class="text-center">Prowl is a modern open source game engine</p>
+</div>
+
+<div
+  class="max-w-2xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
+>
+  <img src="" alt="" />
+
   <h2 class="text-3xl font-medium text-center">We Need Your Help</h2>
   <p class="text-center">
     Prowl has all foundational features but is very unstable in certain places,
@@ -143,7 +158,7 @@
     class="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-br from-[#40b3ff] via-[#9c40ff] to-[#9c40ff] relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
   >
     <!-- <BorderBeam size={60} duration={12}></BorderBeam> -->
-    Contribute to Prowl
+    Contribute on Github
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"

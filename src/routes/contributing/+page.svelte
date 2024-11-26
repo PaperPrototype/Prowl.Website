@@ -1,6 +1,12 @@
 <svelte:head>
   <title>Prowl | Contributing</title>
-  <meta name="description" content="Svelte demo app" />
+  <meta name="title" content="Prowl Engine | Contributing" />
+  <meta name="description" content="An open-source Unity-like game engine" />
+  <meta property="og:title" content="Prowl Engine | Contributing" />
+  <meta
+    property="og:description"
+    content="An open-source Unity-like game engine"
+  />
 </svelte:head>
 
 <div class="w-screen h-[40vh] flex flex-col items-center justify-center">
@@ -66,7 +72,7 @@
     it to the console window in the Prowl Editor.
   </p>
   <p>
-    <span>DISCLAIMER FOR Apple Silicon: </span> For some reason veldrid.sdl2 and
+    <span>DISCLAIMER FOR Apple Silicon: </span> For some reason Veldrid.Sdl2 and
     AssimpNet fail to provide a proper libsdl2.dylib and libassimp.dylib for
     apple silicon. For convienience you can download proper dylibs for apple
     silicon
