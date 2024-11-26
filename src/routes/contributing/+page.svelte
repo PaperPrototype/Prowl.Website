@@ -62,9 +62,10 @@
     the console window in the Prowl Editor.
   </p>
   <p>
-    <span>DISCLAIMER FOR OSX: </span> For some reason veldrid.sdl2 and AssimpNet
-    fail to provide a proper libsdl2.dylib and libassimp.dylib for apple
-    silicon. For convienience you can download proper dylibs for apple silicon
+    <span>DISCLAIMER FOR Apple Silicon: </span> For some reason veldrid.sdl2 and
+    AssimpNet fail to provide a proper libsdl2.dylib and libassimp.dylib for
+    apple silicon. For convienience you can download proper dylibs for apple
+    silicon
     <a href="/libsdl2.dylib" download="/libsdl2.dylib">here (libsdl2.dylib)</a>
     and
     <a href="/libassimp.dylib" download="/libassimp.dylib"
