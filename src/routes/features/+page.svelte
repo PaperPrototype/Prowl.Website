@@ -78,15 +78,16 @@
     class="w-screen flex flex-col md:grid md:grid-cols-2 container mx-auto max-w-5xl"
   >
     <div class="p-5 my-auto">
-      <h2 class="text-4xl font-semibold pb-5">Physics</h2>
+      <h2 class="text-4xl font-semibold pb-5">Physics Engine</h2>
       <div class="flex flex-col gap-3">
         <p class="text-white/70">
-          Simulate the solar system with double precision physics now supported
-          through JitterPhysics.
+          JitterPhysics integration for realistic simulations and interactions.
+          With support for Doubles so you can simulate the solar system. Now you
+          can finally make those Planets you've always wanted!
         </p>
         <span class="text-white/70 text-xs">
-          Yes technically our solar system fits in 1:1 without needing to scale
-          it down. Now you can finally make those Planets you've always wanted!
+          Yes earth's solar system fits in 1:1 in prowl without needing to scale
+          it down.
         </span>
       </div>
     </div>
@@ -112,7 +113,11 @@
       <h2 class="text-4xl font-semibold pb-5">Custom UI Library</h2>
       <div class="flex flex-col gap-3">
         <p class="text-white/70">
-          A powerful UI system for both in-game and editor interfaces.
+          A powerful UI system for both in-game and editor interfaces inspired
+          by
+          <a class="underline" target="_blank" href="https://pangui.io"
+            >pangui.io</a
+          >
         </p>
       </div>
     </div>
@@ -170,16 +175,16 @@
   <div class="feature-grid mx-auto">
     <!-- card -->
     <div class="feature-card border border-white/40 rounded-xl">
-      <h4 class="text-center font-semibold">Fully Featured Editor</h4>
+      <h4 class="text-center font-semibold">AI and Navigation</h4>
       <p class="text-sm text-white/70 text-center mb-auto">
-        A fully featured Editor with familiar controls for Unity developers.
+        DotRecast integration for navmesh and AI.
       </p>
     </div>
     <!-- card -->
     <div class="feature-card border border-white/40 rounded-xl">
-      <h4 class="text-center font-semibold">Physics</h4>
+      <h4 class="text-center font-semibold">More Physics!</h4>
       <p class="text-sm text-white/70 text-center mb-auto">
-        Integrated Bepu Physics 2 for realistic simulations and interactions.
+        Integrated Bepu Physics 2 for hyper performant physics simulations.
       </p>
     </div>
     <!-- card -->
@@ -188,16 +193,6 @@
       <p class="text-sm text-white/70 text-center mb-auto">
         Similar structure to Unity, with support for custom importers and many
         file formats.
-      </p>
-    </div>
-    <!-- card -->
-    <div class="feature-card border border-white/40 rounded-xl">
-      <h4 class="text-center font-semibold">Custom UI Library</h4>
-      <p class="text-sm text-white/70 text-center mb-auto">
-        A powerful UI system for both in-game and editor interfaces inspired by
-        <a class="underline" target="_blank" href="https://pangui.io"
-          >pangui.io</a
-        >
       </p>
     </div>
   </div>

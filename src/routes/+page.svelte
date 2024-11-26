@@ -110,7 +110,7 @@
         href="/contributing"
         class=" cursor-pointer flex items-center justify-center gap-1 bg-white text-black relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
       >
-        How to Contribute
+        Contributing Guide
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
@@ -131,19 +131,133 @@
 </div>
 
 <div
-  class="max-w-2xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
+  class="max-w-4xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
 >
-  <img src="" alt="" />
-
   <h2 class="text-3xl font-medium text-center">About Prowl</h2>
-  <p class="text-center">Prowl is a modern open source game engine</p>
+  <p class="text-center">
+    Prowl is a modern open source game engine that combines Unity's intuitive
+    workflows with the full power of .NET 9.0. Built on Pure C# with almost no
+    native dependancies, it offers Unity developers a familiar home while
+    embracing a simple and extensible architecture. Whether you are crafting
+    indie games or building complex simulations, Prowl provides the essential
+    tools you need without the bloat you don't. Open source and MIT licensed,
+    ready for your next project.
+  </p>
+</div>
+
+<!-- FEATURES -->
+<div
+  class="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-16 max-w-4xl mx-auto p-5"
+>
+  <!-- feature -->
+  <div class="flex flex-col mx-auto gap-5 p-4">
+    <h2 class="text-xl font-semibold">Cross-Platform</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        Supports Windows, Linux & Mac, with plans for mobile and web platforms
+      </p>
+    </div>
+  </div>
+
+  <!-- feature -->
+  <div class="flex flex-col mx-auto p-4">
+    <h2 class="text-xl font-semibold pb-5">Fully Featured Editor</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        Build and deploy games across Windows, Linux & Mac platforms
+      </p>
+    </div>
+    <!-- <img class="w-full col-span-2 p-5" src="/banana.png" alt="Prowl Editor" /> -->
+    <!-- <div class="aspect-video bg-red-500 w-[32rem]"></div> -->
+  </div>
+
+  <!-- feature -->
+  <div class="flex flex-col mx-auto p-4">
+    <!-- <img class="w-full col-span-1 p-5" src="/code.png" alt="Prowl Editor" /> -->
+    <!-- <div class="aspect-video bg-red-500 w-[32rem]"></div> -->
+    <h2 class="text-xl font-semibold pb-5">Unity Scripting API</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        Featuring a familiar Unity scripting API and workflow, making the
+        transition easy for developers
+      </p>
+    </div>
+  </div>
+
+  <!-- feature -->
+  <div class="flex flex-col mx-auto p-4">
+    <h2 class="text-xl font-semibold pb-5">Physics Engine</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        JitterPhysics 2 for realistic simulations and interactions, with support
+        for Doubles.
+      </p>
+    </div>
+    <!-- <video class="w-full p-5" loop muted autoplay>
+      <source src="jitter.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video> -->
+
+    <!-- <div class="aspect-video bg-red-500 w-[32rem]"></div> -->
+  </div>
+
+  <!-- feature -->
+  <div class="flex flex-col mx-auto p-4">
+    <h2 class="text-xl font-semibold pb-5">Instant Familiarity</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        Jump right in with Unity-inspired workflows and APIs. Zero learning
+        curve for Unity developers, plus the freedom to customize everything.
+      </p>
+    </div>
+    <!-- <video class="w-full p-5" loop muted autoplay>
+      <source src="physics.mp4" type="video/mp4" />
+      <source src="physics.mov" type="video/quicktime" />
+      Your browser does not support the video tag.
+    </video> -->
+
+    <!-- <div class="aspect-video bg-red-500 w-[32rem]"></div> -->
+  </div>
+
+  <!-- feature -->
+  <div class="flex flex-col p-4">
+    <!-- <img class="col-span-1 p-5" src="/banana-below.webp" alt="Prowl Editor" /> -->
+    <h2 class="text-xl font-semibold pb-5">Modern Graphics</h2>
+    <div class="flex flex-col gap-3">
+      <p class="text-white/70">
+        Physically based rendering pipeline with shadow mapping, motion vectors,
+        and customizable post processing capabilities.
+      </p>
+    </div>
+    <!-- <div class="aspect-video bg-red-500 w-[32rem]"></div> -->
+  </div>
+</div>
+
+<div class="flex flex-col items-center justify-center pb-24">
+  <p>And more</p>
+  <a
+    href="/features"
+    class=" cursor-pointer flex items-center justify-center gap-1 bg-white text-black relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
+  >
+    See all Features
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="black"
+      class="size-5"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </a>
 </div>
 
 <div
-  class="max-w-2xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
+  class="max-w-3xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
 >
-  <img src="" alt="" />
-
   <h2 class="text-3xl font-medium text-center">We Need Your Help</h2>
   <p class="text-center">
     Prowl has all foundational features but is very unstable in certain places,
