@@ -19,7 +19,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter()
 	},
-    
+
     // plugins: [
 	// 	svelte({
 	// 		// these are the defaults. If you want to add more extensions, see https://mdsvex.pngwn.io/docs#extensions
