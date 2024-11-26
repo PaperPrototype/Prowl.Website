@@ -45,15 +45,19 @@
     already have them.
   </p>
   <p>
-    Once you have the project installed as well as the latest version of .NET go
-    to the root of the project and run the following command:
+    Download the project from github (make sure to clone the repository with
+    version control so you can make pull requests). Open the root folder of the
+    project in your termninal and run the following command:
   </p>
   <pre>
     <code>
         dotnet run --project Prowl.Editor</code
     >
   </pre>
-  <p>Thats it!</p>
+  <p>
+    Thats it! You can now create a new project in the projects menu and start
+    making a game just like you would in Unity.
+  </p>
   <p>
     If you are using Visual Studio 2022, you can double click the .sln file in
     the root of the repo to open the project. Once you open the project make
