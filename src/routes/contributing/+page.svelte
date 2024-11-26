@@ -60,10 +60,10 @@
   </p>
   <p>
     If you are using Visual Studio 2022, you can double click the .sln file in
-    the root of the repo to open the project. Once you open the project make
-    sure you <strong>don't</strong> start in Debug mode otherwise errors will cause
-    the editor to go to the line that has the error instead of just logging it to
-    the console window in the Prowl Editor.
+    the root of the repo to open the project. If you are in Visual Studio 2022
+    make sure you <strong>don't</strong> start in Debug mode otherwise errors will
+    cause the editor to go to the line that has the error instead of just logging
+    it to the console window in the Prowl Editor.
   </p>
   <p>
     <span>DISCLAIMER FOR Apple Silicon: </span> For some reason veldrid.sdl2 and
