@@ -42,7 +42,7 @@
       <p
         class="text-white/90 max-w-xl text-center px-5 pb-5 md:text-xl text-md font-medium z-20"
       >
-        Open-source Unity-like game engine in active development
+        Open-source Unity-like game engine in early development
       </p>
       <!-- <p class="text-white/ max-w-xl px-5 pb-5">
         MIT licensed C# game engine aiming to provide a seamless transition for
@@ -272,7 +272,7 @@
     class="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-br from-[#40b3ff] via-[#9c40ff] to-[#9c40ff] relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
   >
     <!-- <BorderBeam size={60} duration={12}></BorderBeam> -->
-    Contribute on Github
+    Download on Github
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"

@@ -17,12 +17,12 @@
 <div class="mx-auto max-w-3xl flex flex-col readable p-10">
   <p>
     <span>DISCLAIMER:</span>
-    It is important to note out that while prowl shows promise the engine is relatively
-    unstable. Therefore it's very likely that your first experience won't be very
-    pleasant. Nonetheless for the engine to become stable we need developers to use
-    it. This short guide is for those developers who wish to push past the current
-    potentially painful process of getting prowl up and running with the goal of
-    helping shape this into an engine worthy of getting a 1.0 release.
+    It is important to note out that while prowl shows promise the engine is unstable.
+    Therefore it's very likely that your first experience won't be very pleasant.
+    Nonetheless for the engine to become stable we need developers to use it. This
+    short guide is for those developers who wish to push past the current potentially
+    painful process of getting prowl up and running with the goal of helping shape
+    this into an engine worthy of getting a 1.0 release.
   </p>
   <p>
     Prowl is extremely simple to setup since it is written entirely in C# all
