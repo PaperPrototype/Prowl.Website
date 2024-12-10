@@ -153,13 +153,10 @@
       <div class="flex flex-col gap-3">
         <p class="text-white/70">
           Realtime area lights with Perfect Transparency being possible thanks
-          to Forward rendering.* Our graphics backend has been completely
+          to Forward rendering. Our graphics backend has been completely
           re-written to use Veldrid which has zero native DLL dependencies, and
           talks directly to the operating system's graphics drivers from C#.
         </p>
-      </div>
-      <div class="text-xs text-white/50 pt-5">
-        *Possible but we haven't quite implemented it yet.
       </div>
     </div>
 
