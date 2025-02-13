@@ -42,7 +42,9 @@
       <p
         class="text-white/90 max-w-xl text-center px-5 pb-5 md:text-xl text-md font-medium z-20"
       >
-        Open-source Unity-like game engine in early development
+        A new open-source Unity-like game engine in <strong>
+          very early development
+        </strong>
       </p>
       <!-- <p class="text-white/ max-w-xl px-5 pb-5">
         MIT licensed C# game engine aiming to provide a seamless transition for
@@ -110,7 +112,7 @@
         href="/contributing"
         class=" cursor-pointer flex items-center justify-center gap-1 bg-white text-black relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
       >
-        Contributing Guide
+        How to Contribute
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
@@ -128,6 +130,39 @@
   </div>
 
   <!-- <NewGrid /> -->
+</div>
+
+<div
+  class="max-w-3xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
+>
+  <h2 class="text-3xl font-medium text-center">We Need Your Help</h2>
+  <p class="text-center">
+    Prowl has all foundational features but is very unstable in certain places,
+    and we need more people to use the engine to help us find and improve those
+    areas and make it even better.
+  </p>
+
+  <!-- <BorderBeam></BorderBeam> -->
+  <a
+    target="_blank"
+    href="https://github.com/ProwlEngine/Prowl"
+    class="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-br from-[#40b3ff] via-[#9c40ff] to-[#9c40ff] relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
+  >
+    <!-- <BorderBeam size={60} duration={12}></BorderBeam> -->
+    Download on Github
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="currentColor"
+      class="size-5"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
+        clip-rule="evenodd"
+      />
+    </svg>
+  </a>
 </div>
 
 <div
@@ -244,39 +279,6 @@
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       fill="black"
-      class="size-5"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z"
-        clip-rule="evenodd"
-      />
-    </svg>
-  </a>
-</div>
-
-<div
-  class="max-w-3xl mx-auto p-10 flex flex-col items-center justify-center gap-3"
->
-  <h2 class="text-3xl font-medium text-center">We Need Your Help</h2>
-  <p class="text-center">
-    Prowl has all foundational features but is very unstable in certain places,
-    and we need more people to use the engine to help us find and improve those
-    areas and make it even better.
-  </p>
-
-  <!-- <BorderBeam></BorderBeam> -->
-  <a
-    target="_blank"
-    href="https://github.com/ProwlEngine/Prowl"
-    class="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-br from-[#40b3ff] via-[#9c40ff] to-[#9c40ff] relative w-fit mx-auto mt-5 p-2 px-3 pl-4 rounded-full"
-  >
-    <!-- <BorderBeam size={60} duration={12}></BorderBeam> -->
-    Download on Github
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 20 20"
-      fill="currentColor"
       class="size-5"
     >
       <path
